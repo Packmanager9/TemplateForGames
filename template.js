@@ -180,7 +180,7 @@ ys = e.clientY - flex.top;
         }
         draw(){
 
-            tutorial_canvas_context.strokStyle = this.color  //sets outline color
+            tutorial_canvas_context.strokeStyle = this.color  //sets outline color
 
             tutorial_canvas_context.lineWidth = 0 // sets outline width
     
