@@ -222,7 +222,7 @@ ys = e.clientY - flex.top;
             tutorial_canvas_context.strokeStyle = this.color
             tutorial_canvas_context.lineWidth = this.width
 
-            tutorial_canvas.style.s
+        
             tutorial_canvas_context.beginPath(); 
     
             tutorial_canvas_context.moveTo(this.x1, this.y1); 
@@ -315,7 +315,7 @@ function intersects(circle, left) {
     return areaX * areaX + areaY * areaY <= circle.radius * circle.radius;
 }
 
-// random color that will be visible on  blac backgroung
+// random color that will be visible on  black background
 function getRandomLightColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
